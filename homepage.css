@@ -1,0 +1,610 @@
+*{
+    font-family:sans-serif;
+}
+html{
+    max-width: 100%;
+    
+}
+body{
+    width: 100%;
+    /*background-color: #222727 !important;*/
+    background-color: white !important;
+}
+img{
+    width:100%;
+}
+
+
+#navbar{
+    position:fixed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+    backdrop-filter: blur(35px); /* Adjust the blur value as desired */
+    transition: backdrop-filter 0.5s; /* Add a transition effect */
+}
+header #navbar.blur{
+    backdrop-filter: none;
+}
+#navbar ul{
+    height: 100%;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+#navbar li{
+    text-align: center;
+    padding-top: 5px;
+    margin: 1%;
+    margin-left: 0;
+    width: 19%;
+}
+#navbar a{
+    font-size:small;
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    color: black !important;
+    border-bottom: 1% solid transparent;
+    transition: border-bottom 0.5s ease;
+
+}
+#navbar a:hover{
+    border-bottom: 1px solid black !important;
+}
+
+
+
+#intro{
+    text-align: center;
+    margin-top: 40% !important;
+    padding: 0;
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+ #introheader{
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+}
+#introheader .hightlight{
+    color: #087E8B !important;
+}
+#intro-description{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+    font-size: small;
+}
+.bold{
+    font-weight: bold;
+}
+.blob{
+    position: absolute;
+    height: 327px;
+    width: 100%;
+    margin-top: 20%;
+    z-index: -1;
+    align-items: center;
+    vertical-align: middle;
+}
+.blob svg{
+    height: 327px;
+    width: 100%;
+    
+}
+#forjc{
+    background-image: url('uncut.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: auto;
+    border-radius: 50%;
+    border: hidden;
+    overflow: hidden;
+    height: 170px;
+    width: 170px;
+    vertical-align: middle;
+}
+
+
+
+
+#projects{
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+#projects h1{
+    text-align: center;
+    text-decoration: underline #c1a77f;
+}
+#gallery1{
+    width: 100%;
+    padding: 5% 5%;
+    text-align: center;
+}
+#gallery1 div{
+    margin-top: 5%;
+}
+#gallery1 h3{
+    color: #087E8B !important;
+}
+
+
+
+#ttcgallery p{
+    padding: 5% 5%;
+    overflow: hidden;
+}
+#ttcgallery{
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    overflow: hidden;
+    outline: solid #087E8B;
+    border: hidden;
+    border-radius: 10%;
+}
+ #ttcgallery img{
+    clear: both;
+    padding: 4% 4%;
+}
+.scroll-container{
+    overflow: auto;
+    background-color: #fff;
+    white-space: nowrap;
+    padding: 4%;
+}
+.scroll-container img{
+    padding: 4%;
+}
+
+
+
+
+#thumbsappgallery p{
+    padding: 5% 5%;
+    overflow: hidden;
+}
+#thumbsappgallery{
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    outline: solid #087E8B;
+    border: hidden;
+    border-radius: 10%;
+}
+#thumbsappgallery img{
+
+    padding: 4%;
+}
+
+
+
+
+
+.indent{
+    text-indent: 5%;
+}
+.proj-info{
+    font-size:small;
+    margin-bottom: 0 !important;
+}
+.langs{
+    font-size: small;
+    overflow: hidden;
+    font-weight: bold;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+/*img, svg{
+    height: 450px !important;
+    width: 750px !important;
+}*/
+
+
+
+
+
+#pawgallery{
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    outline: solid #087E8B;
+    border: hidden;
+    border-radius: 10%;
+}
+#pawgallery p{
+    padding: 4%;
+    overflow: hidden;
+}
+
+
+
+.wave {
+    position: fixed;
+    margin-top: 11%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wave svg {
+    width: 100%;
+}
+
+.wave .shape-fill {
+    fill: #087E8B;
+}
+.custom-shape-divider-bottom-1690102354 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1690102354 svg {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1690102354 .shape-fill {
+    fill: #087E8B;
+}
+
+
+#background{
+    width: 100%;
+    background-image: linear-gradient(#7caaaf, #fff);
+    transform: skewY(-7deg);
+    border: hidden;
+    padding-top: 5%;
+}
+#about-me{
+    transform: skewY(7deg);
+    margin: 5% 5%;
+}
+#about-me p{
+    padding: 1%;
+    margin-bottom: 50px;
+}
+#about-me h2{
+    text-align: center;
+}
+#skills{
+    display: block;
+    outline: solid #087E8B;
+    border: hidden;
+    border-radius: 5%;
+    margin: 5%;
+    padding: 5%;
+}
+#skills svg{
+    vertical-align: middle;
+    width: 50%;
+    height: 50%;
+    padding: 3%;
+}
+#skillrow1{
+    display: flex;
+}
+#skillrow2{
+    display: flex;
+}
+
+footer{
+    align-items: center;
+    display: block;
+    color: #fff;
+    margin-top: 200px;
+    background-color: #087E8B;
+    height: 10%;
+}
+footer img{
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+footer p{
+    text-decoration: none;
+    padding-top: 10px;
+}
+footer a{
+    color: #fff;
+    display: flex;
+    width: min-content;
+    text-decoration: none;
+}
+#contacts{
+    display: flex;
+    vertical-align: middle;
+    padding-top: 25px;
+}
+#contacts div{
+    margin-right: 15px;
+}
+#linkedin{
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+#gmail{
+    display: flex;
+}
+#phone{
+    display: flex;
+}
+
+@media only screen and (min-width: 430px){
+    .wave{
+        margin-top: 12%;
+    }
+    .blob{
+        position: absolute;
+        height: 250px;
+        margin-top: 32%;
+    }
+    .blob svg{
+        height: 100%;
+        width: 100%;
+    }
+    #projects{
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 550px){
+    .wave{
+        margin-top: 9%;
+    }
+    .blob{
+        margin-top: 34%;
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 667px){
+    .wave{
+        margin-top: 8%;
+    }
+    #intro{
+        margin-top: 30% !important;
+    }
+    .blob{
+        margin-top: 24%;
+    }
+    #about-me p{
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #navbar{
+        height: 50px;
+    }
+    #navbar li{
+        padding-top: 1%;
+        width: 15%;
+    }
+    #navbar a{
+        font-size: medium;
+    }
+    .wave{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin-top: 8% !important;
+    }
+
+    #home{
+        padding-bottom: 1px;
+    }
+    #intro{
+        display: flex;
+        margin-top: 25% !important;
+        margin-right: 5%;
+    }
+    #description-wrapper{
+        width: 60%;
+        margin-left: 35px;
+        padding-bottom: 5%;
+        text-align:left ;
+    }
+    #introheader{
+        font-size: 3rem;
+        text-align: left;
+    }
+    #intro-description{
+        display:inline;
+        font-size: large;
+        margin: 0;
+    }
+    #forjc{
+        height: 200px;
+        width: 220px;
+        background-image: url('uncut.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        margin-left: 100px;
+        border-radius: 50%;
+        border: hidden;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+    .blob{
+        display: flex;
+        height: 285px;
+        margin-top: 23%;
+    }
+    .blob svg{
+        height: 400px;
+        width: 400px;
+
+    }
+    #projects{
+        margin-top: 20%;
+    }
+    #projects h1{
+        font-size: 3rem;
+    }
+    #gallery1{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    #gallery1 h3{
+        font-size: 1.9rem;
+    }
+    .proj-info{
+        font-size: large;
+    }
+    .langs{
+        font-size: large;
+    }
+    .scroll-container{
+        overflow: auto;
+        background-color: #fff;
+        white-space: nowrap;
+        padding: 10px;
+    }
+    .scroll-container img{
+        padding: 10px;
+    }
+    #aboutme{
+        font-size: 3rem;
+    }
+    #background{
+        padding-top: 50px;
+    }
+    #about-me{
+        font-size: large;
+    }
+    #about-me p{
+        padding-left: 20px;
+    }
+    #stack-skills{
+        font-size: 3rem;
+    }
+    #skills{
+        display: flex;
+    }
+    #skills svg{
+        width: 50%;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #navbar{
+        width: 100%;
+        height: 60px;
+    }
+    #navbar ul{
+        width: 100%;
+    }
+    #navbar li{
+        padding-top: 5px;
+        width: 10%;
+    }
+    .wave{
+        margin-top: 3.2% !important;
+    }
+    #intro{
+        padding-left: 1%;
+        padding-right: 5%;
+        align-items: center;
+        width: 100%;
+        margin-top: 25% !important;
+    }
+    #introheader{
+       
+        width: 100%;
+    }
+    .blob{
+        padding-left: 1%;
+        padding-right: 5%;
+        margin-top: 25%;
+    }
+    #forjc{
+        height: 200px;
+        width: 200px;
+        margin-right: 5%;
+    }
+    #projects{
+        margin-top: 15%;
+    }
+    #gallery1{
+        padding-left: 25px;
+        padding-right: 25px;
+        display:flex;
+    }
+    #gallery1 div{
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    .scroll-container{
+        overflow: auto;
+        background-color: #fff;
+        white-space: nowrap;
+        padding: 10px;
+    }
+    .scroll-container img{
+        padding: 10px;
+    }
+    #skills div{
+        width: 100%;
+    }
+    #skills svg{
+        width: 40%;
+    }
+}
+@media only screen and (min-width: 1500px){
+    #navbar li{
+        padding-top: 0;
+    }
+    #intro{
+        margin-top: 16% !important;
+        padding-left: 16%;
+        padding-right: 10%;
+    }
+    #introheader{
+        display: flex;
+    }
+    .blob{
+        margin-top: 15%;
+        padding-left: 16%;
+        padding-right: 10%;
+    }
+    #projects{
+        margin-top: 10%;
+    }
+    #projects h1{
+        margin: 0;
+    }
+    #gallery1{
+        padding-top: 0;
+    }
+    .custom-shape-divider-bottom-1690102354{
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,30 @@
+what you can put inside your programmer portfolio:
+
+1. coursework and Academics: notable projects such as thesis or assignments. highlight
+			the tech and programming languages and concepts that are included
+
+2. personal projects: even small projects that can show willingness to learn outside of
+			academics
+
+3. open-source contribution: such as open source on githubs
+
+4. collaborative projects:
+
+5. showcase skill: emphasize programming languages, frameworks, and tools you are
+		proficient in. certification or online courses that's completed.
+
+6. code samples and githubs repo:
+
+7. formal education
+
+8. professional certification
+
+9. about me: values, professional strengths, personal exp.
+
+	I'm a fresh graduate in Arellano University with a Bachelor's Degree in Computer
+	Science in year 2023. My life is highly influenced with a technology.
+	I love to learn and explore more in building responsive website. I'm more into
+	front-end but also willing to dive into the back-end so I can learn.
+
+	I'm a Ambivert person. In my free time, I love playing basketball, hanging out
+	with my friends, and I ride my bicycle to discover beautiful places.
