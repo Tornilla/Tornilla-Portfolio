@@ -16,6 +16,7 @@ img{
 
 
 #navbar{
+    display: flex;
     position:fixed;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-color: transparent;
@@ -31,7 +32,18 @@ img{
 header #navbar.blur{
     backdrop-filter: none;
 }
+#navbar img{
+    height: 30px;
+    width: 30px;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 00;
+    margin-bottom: 0;
+    border: solid 1px;
+    border-radius: 50%;
+}
 #navbar ul{
+    width: 100%;
     height: 100%;
     padding: 0;
     display: flex;
@@ -333,14 +345,42 @@ footer a{
     width: min-content;
     text-decoration: none;
 }
-#contacts{
+
+
+
+/*contacts*/
+#contact-header{
+    color: #087E8B;
+    margin-top: 25%;
+    text-align: center;
+}
+#contact{
+    margin-top: 10%;
+}
+#contact-container{
+    width: 100%;
+    padding: 3%;
+    background-color:#087E8B;
+}
+#contact-container div{
+    display: flex;
+}
+#contact-container p{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5%;
+    display: flex;
+}
+#contact img{
+    height: 25px;
+    width: 25px;
+}
+/* #contacts{
     display: flex;
     vertical-align: middle;
     padding-top: 25px;
 }
-#contacts div{
-    margin-right: 15px;
-}
+
 #linkedin{
     vertical-align: middle;
     margin: 0;
@@ -351,7 +391,7 @@ footer a{
 }
 #phone{
     display: flex;
-}
+} */
 
 @media only screen and (min-width: 430px){
     .wave{
@@ -379,6 +419,14 @@ footer a{
         margin-top: 34%;
         height: 250px;
     }
+    #contact-container{
+        align-items: center;
+        display: flex;
+    }
+    #contact-container div{
+        padding-top: 13px;
+        margin-left: 7%
+    }
 }
 
 @media only screen and (min-width: 667px){
@@ -393,6 +441,9 @@ footer a{
     }
     #about-me p{
         padding-left: 15px;
+    }
+    #contact-container div{
+        margin-left: 10%;
     }
 }
 
@@ -511,12 +562,25 @@ footer a{
         width: 50%;
         height: 150px;
     }
+    #contact-container{
+        padding: 0;
+        margin-top: 10%;
+    }
+    #contact-container div{
+        margin-left: 12%;
+    }
 }
 
 @media only screen and (min-width: 1000px){
     #navbar{
         width: 100%;
         height: 60px;
+    }
+    #navbar img{
+        height: 35px;
+        width: 35px;
+        margin-top: 13px;
+        margin-left: 30px;
     }
     #navbar ul{
         width: 100%;
@@ -576,6 +640,15 @@ footer a{
     #skills svg{
         width: 40%;
     }
+    #contact{
+        margin-top: 10%;
+    }
+    #contact-container{
+        padding: 0;
+    }
+    #contact-container div{
+        margin-left: 18%;
+    }
 }
 @media only screen and (min-width: 1500px){
     #navbar li{
@@ -606,5 +679,15 @@ footer a{
     .custom-shape-divider-bottom-1690102354{
         margin: 0;
         padding: 0;
+    }
+    #contact{
+        margin-top: 10%;
+    }
+    #contact-container{
+        width: 100%;
+        padding: 0;
+    }
+    #contact-container div{
+        margin-left: 20.5%;
     }
 }
